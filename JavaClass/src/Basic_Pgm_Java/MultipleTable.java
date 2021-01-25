@@ -12,7 +12,7 @@ public class MultipleTable {
 		start = scan.nextInt();
 		System.out.println("Enter the end value");
 		end = scan.nextInt();
-		System.out.println("Enter the tabel value");
+		System.out.println("Enter the table value");
 		table = scan.nextInt();
 		
 		System.out.println("Using While loop");
