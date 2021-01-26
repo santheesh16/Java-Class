@@ -1,6 +1,13 @@
 Conditional Statement
 
+
+25-01-2021(Monday)
 1.Write the program to get a number from the user print the number is positive or negative
 2.Solve Quadratic equation input a= 1, b=5 ,c =3 (Using if, else if and if else)
 3.Write the program that reads to two float points numbers and test whether they are same or not(Using Any condition)
 4.Multiplication table input Starting ,ending and which is the table.
+5.Pyramid input as row value to print
+
+
+26-01-2021(Tuesday)
+Until given negative value, decimal value fails condition in if..else..if

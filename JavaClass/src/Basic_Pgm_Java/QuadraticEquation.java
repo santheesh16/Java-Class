@@ -17,6 +17,21 @@ public class QuadraticEquation {
 		double deter = num2 * num2 - 4 * num1 * num3;
 		double root1, root2;
 		
+		//Another way of approach
+		
+		
+		
+		if (deter  == 0) {
+			root1 = root2 = -num2 / (2 * num1);
+			System.out.println("The Roots are"+ root1);
+		} else if(deter > 0) {
+			root1 = (-num2 + Math.sqrt(deter)) / (2 * num1);
+			root2 = (+num2 + Math.sqrt(deter)) / (2 * num1);
+			System.out.println("The Roots are" + root1 + "," + root2);
+		} else {
+			System.out.println("The Roots are imaginary" );
+		}
+		
 		
 		System.out.println("Using if");
 		if (deter >= 0) {
