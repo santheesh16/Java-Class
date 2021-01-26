@@ -36,7 +36,7 @@ public class ArrayMultiple {
 			System.out.println();
 		}
 		System.out.printf("The sum of left diagonal" + leftDia );
-		for (int i = row; i < row; i--) {
+		for (int i = row -1 ; i < row; i--) {
 			for (int j = col - 1; j < col; j--) {
 				if(i >= 0 && j >= 0 ) {
 					System.out.println("\nEnter the value of arr["+ i + "]["+ j + "]" + ":" + arr1[i][j]);
