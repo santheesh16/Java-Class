@@ -35,17 +35,16 @@ public class ArrayMultiple {
 			}
 			System.out.println();
 		}
-		System.out.printf("The sum of left diagonal" + leftDia );
-		for (int i = row -1 ; i < row; i--) {
-			for (int j = col - 1; j < col; j--) {
-				if(i >= 0 && j >= 0 ) {
-					System.out.println("\nEnter the value of arr["+ i + "]["+ j + "]" + ":" + arr1[i][j]);
+		System.out.printf("The sum of left diagonal " + leftDia );
+		for (int i = 0; i < row; i++) {
+			for (int j = 0; j < col; j++) {
+				if(( i + j) == (row - 1 )) {
 					rightDia += arr1[i][j];	
 				}
 			}
 			System.out.println();
 		}
-		System.out.printf("The sum of left diagonal" + rightDia );
+		System.out.printf("The sum of left diagonal " + rightDia );
 	}
 
 }
